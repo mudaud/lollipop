@@ -1,0 +1,16 @@
+{
+  "name": "wallpaper",
+  "version": "1.0.0",
+  "description": "Individual wallpaper",
+  "main": "index.js",
+  "author": "Gersom van Ginkel",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "npx @wetransfer/wallpaper-ui build --standalone"
+  },
+  "dependencies": {
+    "@wetransfer/wallpaper-ui": "^1.7.0",
+    "gsap": "^3.7.0",
+    "vivus": "^0.4.5"
+  }
+}
